@@ -1,0 +1,57 @@
+2024-08-23 16:22:37.020 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XML.xml.
+2024-08-23 16:22:37.768 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-23 16:29:33.605 -03:00 [INF] Nenhum email novo encontrado.
+2024-08-23 16:34:33.267 -03:00 [INF] Nenhum email novo encontrado.
+2024-08-23 16:37:33.505 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XML.xml.
+2024-08-23 16:37:34.149 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-23 16:40:33.276 -03:00 [INF] Nenhum email novo encontrado.
+2024-08-23 16:48:55.821 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\XML.xml.
+2024-08-23 16:48:55.923 -03:00 [INF] Arquivo XML XML.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Invalidos\XML.xml.
+2024-08-23 16:48:56.578 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-23 16:51:08.223 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\XML.xml.
+2024-08-23 16:51:08.314 -03:00 [INF] Pasta para o CNPJ 03654119000176 criada em C:\Users\demia\Documents\ESM\Automation NFs Test Folder\03654119000176.
+2024-08-23 16:51:08.316 -03:00 [INF] Arquivo XML XML.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\03654119000176\XML.xml.
+2024-08-23 16:51:08.941 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-23 17:00:25.127 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\XML.xml.
+2024-08-23 17:00:25.231 -03:00 [INF] Pasta para o CNPJ 03654119000176 criada em C:\Users\demia\Documents\ESM\Automation NFs Test Folder\03654119000176.
+2024-08-23 17:00:25.232 -03:00 [INF] Arquivo XML XML.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\03654119000176\XML.xml.
+2024-08-23 17:00:25.866 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-23 17:05:05.549 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\XML.xml.
+2024-08-23 17:05:05.649 -03:00 [INF] Pasta para o CNPJ 03654119000176 criada em C:\Users\demia\Documents\ESM\Automation NFs Test Folder\03654119000176.
+2024-08-23 17:05:05.650 -03:00 [INF] Arquivo XML XML.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\03654119000176\XML.xml.
+2024-08-23 17:05:06.296 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-23 17:05:06.803 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\123.xml.
+2024-08-23 17:05:06.814 -03:00 [INF] Pasta para o CNPJ 123 criada em C:\Users\demia\Documents\ESM\Automation NFs Test Folder\123.
+2024-08-23 17:05:06.815 -03:00 [INF] Arquivo XML 123.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\123\123.xml.
+2024-08-23 17:05:07.426 -03:00 [INF] Email com ID 1637 marcado como lido.
+2024-08-23 17:08:04.831 -03:00 [INF] Arquivo XML 456.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\456.xml.
+2024-08-23 17:08:04.842 -03:00 [INF] Pasta para o CNPJ 456 criada em C:\Users\demia\Documents\ESM\Automation NFs Test Folder\456.
+2024-08-23 17:08:04.843 -03:00 [INF] Arquivo XML 456.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\456\456.xml.
+2024-08-23 17:08:05.470 -03:00 [INF] Email com ID 1638 marcado como lido.
+2024-08-23 17:11:05.801 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\XML.xml.
+2024-08-23 17:11:05.892 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailAttachmentDownloader.EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\Program.cs:line 120
+2024-08-23 17:14:04.913 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\XML.xml.
+2024-08-23 17:14:04.958 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailAttachmentDownloader.EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\Program.cs:line 120
+2024-08-23 17:17:05.404 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\XML.xml.
+2024-08-23 17:17:05.445 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailAttachmentDownloader.EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\Program.cs:line 120
+2024-08-23 17:18:53.470 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\XML.xml.
+2024-08-23 17:18:53.562 -03:00 [INF] Pasta para o CNPJ 03654119000176 criada em C:\Users\demia\Documents\ESM\Automation NFs Test Folder\03654119000176.
+2024-08-23 17:18:53.564 -03:00 [INF] Arquivo XML XML.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\03654119000176\XML.xml.
+2024-08-23 17:18:54.178 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-23 17:18:54.650 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\123.xml.
+2024-08-23 17:18:54.653 -03:00 [INF] Pasta para o CNPJ 123 criada em C:\Users\demia\Documents\ESM\Automation NFs Test Folder\123.
+2024-08-23 17:18:54.654 -03:00 [INF] Arquivo XML 123.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\123\123.xml.
+2024-08-23 17:18:55.260 -03:00 [INF] Email com ID 1637 marcado como lido.
+2024-08-23 17:18:55.647 -03:00 [INF] Arquivo XML 456.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\XMLs Temporarios\456.xml.
+2024-08-23 17:18:55.649 -03:00 [INF] Pasta para o CNPJ 456 criada em C:\Users\demia\Documents\ESM\Automation NFs Test Folder\456.
+2024-08-23 17:18:55.650 -03:00 [INF] Arquivo XML 456.xml movido para C:\Users\demia\Documents\ESM\Automation NFs Test Folder\456\456.xml.
+2024-08-23 17:18:56.245 -03:00 [INF] Email com ID 1638 marcado como lido.

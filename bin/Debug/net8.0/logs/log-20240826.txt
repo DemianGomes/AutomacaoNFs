@@ -1,0 +1,101 @@
+2024-08-26 14:31:03.207 -03:00 [INF] Pasta para arquivos inválidos criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Invalidos.
+2024-08-26 14:31:07.856 -03:00 [ERR] Erro ao processar emails.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\XML.xml'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.Create(String path)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 87
+2024-08-26 14:33:55.246 -03:00 [INF] Pasta para arquivos inválidos criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Invalidos.
+2024-08-26 14:33:55.313 -03:00 [INF] Pasta para arquivos temporários criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios.
+2024-08-26 14:33:59.669 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\XML.xml.
+2024-08-26 14:33:59.708 -03:00 [INF] Pasta para o CNPJ 03654119000176 criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\03654119000176.
+2024-08-26 14:33:59.710 -03:00 [INF] Arquivo XML XML.xml movido para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\03654119000176\XML.xml.
+2024-08-26 14:34:00.353 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-26 14:36:58.681 -03:00 [INF] Nenhum email novo encontrado.
+2024-08-26 14:39:58.896 -03:00 [INF] Nenhum email novo encontrado.
+2024-08-26 14:42:36.008 -03:00 [INF] Pasta para arquivos inválidos criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Invalidos.
+2024-08-26 14:42:36.069 -03:00 [INF] Pasta para arquivos temporários criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios.
+2024-08-26 14:42:40.535 -03:00 [INF] Arquivo XML XML.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\XML.xml.
+2024-08-26 14:42:40.573 -03:00 [INF] Pasta para o CNPJ 03654119000176 criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\03654119000176.
+2024-08-26 14:42:40.574 -03:00 [INF] Arquivo XML XML.xml movido para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\03654119000176\XML.xml.
+2024-08-26 14:42:41.211 -03:00 [INF] Email com ID 1630 marcado como lido.
+2024-08-26 14:42:41.713 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 14:42:41.725 -03:00 [INF] Pasta para o CNPJ 123 criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\123.
+2024-08-26 14:42:41.726 -03:00 [INF] Arquivo XML 123.xml movido para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\123\123.xml.
+2024-08-26 14:42:42.336 -03:00 [INF] Email com ID 1637 marcado como lido.
+2024-08-26 14:42:42.746 -03:00 [INF] Arquivo XML 456.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\456.xml.
+2024-08-26 14:42:42.759 -03:00 [INF] Pasta para o CNPJ 456 criada em C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\456.
+2024-08-26 14:42:42.760 -03:00 [INF] Arquivo XML 456.xml movido para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\456\456.xml.
+2024-08-26 14:42:43.378 -03:00 [INF] Email com ID 1638 marcado como lido.
+2024-08-26 14:45:40.294 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 14:45:40.398 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 14:48:39.853 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 14:48:39.926 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 14:51:40.193 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 14:51:40.237 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 14:54:40.136 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 14:54:40.176 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 14:57:40.053 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 14:57:40.093 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:00:40.278 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:00:40.316 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:03:40.215 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:03:40.256 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:06:40.277 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:06:40.317 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:09:40.135 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:09:40.172 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:12:39.669 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:12:39.704 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:15:40.410 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:15:40.448 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:18:39.548 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:18:39.607 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:21:40.298 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:21:40.333 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
+2024-08-26 15:24:40.153 -03:00 [INF] Arquivo XML 123.xml baixado com sucesso para C:\Users\demia\Documents\ESM\Automacao Notas Fiscais XML\XMLs Temporarios\123.xml.
+2024-08-26 15:24:40.188 -03:00 [ERR] Erro ao processar emails.
+System.IO.IOException: Não é possível criar um arquivo já existente.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at EmailDownloaderService.DoWork(Object state) in c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\src\Application\EmailDownloaderService.cs:line 113
