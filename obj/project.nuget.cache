@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GF5VlU3W6U/vMa56ULvgufhfMDRsPwzOLdXTIs7FlXjdEfQXZaCqhs0mWjJnPXOye9Ylj3M0BD2EZh9XOSgRXA==",
+  "dgSpecHash": "VR8gGnjw2mc7s/5EsnM/806Ry/Txg8N9xaM4OvL7zQ4SmI2gV7Mts0fH6Z5fmet0H+uxYplqeOSwPtbfrngR+w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\demia\\Documents\\ESM\\MS_Automation_NFs_2\\AutomacaoNFsXML\\AutomacaoNFsXML.csproj",
+  "projectFilePath": "C:\\Users\\demia\\Documents\\Portfólio\\AutomacaoNFs\\AutomacaoNFsXML.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demia\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\demia\\.nuget\\packages\\mailkit\\4.7.1.1\\mailkit.4.7.1.1.nupkg.sha512",

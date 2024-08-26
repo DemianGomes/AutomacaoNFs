@@ -2129,11 +2129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\demia\\Documents\\ESM\\MS_Automation_NFs_2\\AutomacaoNFsXML\\AutomacaoNFsXML.csproj",
+      "projectUniqueName": "C:\\Users\\demia\\Documents\\Portfólio\\AutomacaoNFs\\AutomacaoNFsXML.csproj",
       "projectName": "AutomacaoNFsXML",
-      "projectPath": "C:\\Users\\demia\\Documents\\ESM\\MS_Automation_NFs_2\\AutomacaoNFsXML\\AutomacaoNFsXML.csproj",
+      "projectPath": "C:\\Users\\demia\\Documents\\Portfólio\\AutomacaoNFs\\AutomacaoNFsXML.csproj",
       "packagesPath": "C:\\Users\\demia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\demia\\Documents\\ESM\\MS_Automation_NFs_2\\AutomacaoNFsXML\\obj\\",
+      "outputPath": "C:\\Users\\demia\\Documents\\Portfólio\\AutomacaoNFs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\demia\\AppData\\Roaming\\NuGet\\NuGet.Config",

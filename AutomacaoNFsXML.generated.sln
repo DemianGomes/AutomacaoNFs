@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomacaoNFsXML", "AutomacaoNFsXML.csproj", "{8CA41C7F-2D69-49DF-AAFC-AC770710913E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomacaoNFsXML", "AutomacaoNFsXML.csproj", "{174CD10E-5EE8-4A8D-8F6E-814E19FBBD56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8CA41C7F-2D69-49DF-AAFC-AC770710913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CA41C7F-2D69-49DF-AAFC-AC770710913E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CA41C7F-2D69-49DF-AAFC-AC770710913E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CA41C7F-2D69-49DF-AAFC-AC770710913E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174CD10E-5EE8-4A8D-8F6E-814E19FBBD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174CD10E-5EE8-4A8D-8F6E-814E19FBBD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174CD10E-5EE8-4A8D-8F6E-814E19FBBD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174CD10E-5EE8-4A8D-8F6E-814E19FBBD56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

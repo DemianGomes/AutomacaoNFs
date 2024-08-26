@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AutomacaoNFsXML
-build_property.ProjectDir = c:\Users\demia\Documents\ESM\MS_Automation_NFs_2\AutomacaoNFsXML\
+build_property.ProjectDir = C:\Users\demia\Documents\Portfólio\AutomacaoNFs\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
